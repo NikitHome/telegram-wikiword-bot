@@ -2,7 +2,7 @@ import telebot
 import re
 import wikipedia
 
-bot = telebot.TeleBot('№')
+bot = telebot.TeleBot('#')
 
 # set ru language on wikipedia
 wikipedia.set_lang("ru")
